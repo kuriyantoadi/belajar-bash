@@ -1,10 +1,12 @@
+#!/bin/bash
+
 echo "Selamat Datang di Program Penjumlahan"
 echo -n "inputkan bilangan pertama = "
-read nilaiA  ##membaca inputan nilai pertama
+read bilA
 
 echo -n "inputkan bilangan kedua = "
-read nilaiB  #membaca inputan nilai kedua
+read bilB
 
-jumlah=$((nilaiA + nilaiB))       #Proses Penjumlahan
+jumlah=$((bilA + bilB))
 
-echo "$nilaiA + $nilaiB = $jumlah"   #menampilkan hasil penjumlahan
+echo "$bilA + $bilB = $jumlah"
