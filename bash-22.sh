@@ -1,9 +1,6 @@
 #!/bin/bash
-clear
 
-distros="Debian Ubuntu RedHat Slackware"
-
-for distro in $distros
+for angka in 1 2 3 4 5;
 do
-	echo $distro
+   echo "Bilangan berurutan = $angka";
 done

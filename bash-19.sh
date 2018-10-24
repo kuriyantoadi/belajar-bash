@@ -8,5 +8,6 @@ while [ $i -lt 10 ]; do
     let x=x+1
   done
 
+  echo "ganteng"
   let i=i+1
 done

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for angka in 1 2 4 5;
+for distro in Mint Ubuntu Xubuntu Kali ;
 do
-   echo "angka=$angka";
+   echo "$distro adalah distro GNU/Linux";
 done
