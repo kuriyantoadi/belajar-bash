@@ -4,7 +4,7 @@ function fungsi1(){
   echo "Saya fungsi1"
 }
 
-fungsi2(){
+function  fungsi2() {
   echo "Saya fungsi2"
 }
 
